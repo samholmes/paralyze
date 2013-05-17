@@ -1,0 +1,11 @@
+{
+  "name": "finisher",
+  "version": "1.0.0",
+  "description": "Simple pattern used for parallel async.",
+  "author": "Sam Holmes",
+  "repository": "https://github.com/samholmes/finisher",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
