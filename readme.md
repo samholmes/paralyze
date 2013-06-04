@@ -42,6 +42,6 @@ will invoke the check functions's callback and decrement the internal counter.
 
 Once the internal counter reaches zero again (it starts at zero), then the finisher's callback will be invoked (known as the 'done' function).
 
-Check out the source code to get a better understanding; it's only 14 lines of code (as of writing this).
+Check out the source code to get a better understanding; it's only 15 lines of code (as of writing this).
 
 Note: you can name these functions anything you like of course; 'check' and 'done' are just recommended conventions.
