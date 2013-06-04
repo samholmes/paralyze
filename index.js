@@ -1,12 +1,12 @@
-var finisher = function(finish){
+var finisher = function(done){
     var c = 0;
-    return function wrap(f){
+    return function check(f){
         ++c;
-        return function done(){
+        return function callback(){
             f.apply(this, arguments);
             
             if (!--c)
-                finish();
+                done();
         };
     }
 }
