@@ -10,7 +10,7 @@ var finisher = function(done){
         if (!c) done();
     }
     
-    return function check(f){
+    return function wait(f){
         if (typeof f !== 'function') return false;
         
         ++c;
