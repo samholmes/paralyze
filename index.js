@@ -1,4 +1,4 @@
-if (typeof setImmediate === 'undefined') require('setImmediate');
+if (typeof setImmediate === 'undefined') require('setimmediate');
 
 var finisher = function(done){
     var c = 0, 
