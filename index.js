@@ -1,6 +1,6 @@
 if (typeof setImmediate === 'undefined') require('setimmediate');
 
-var finisher = function(done){
+var paralyze = function(done){
     var c = 0, 
         setImmediateId;
     
@@ -26,4 +26,4 @@ var finisher = function(done){
     }
 }
 
-module.exports = finisher;
+module.exports = paralyze;
